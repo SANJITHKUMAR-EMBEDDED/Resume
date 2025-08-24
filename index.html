@@ -1,142 +1,191 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sanjith Kumar – Resume</title>
-  <meta name="description" content="Resume of Sanjith Kumar – Electronics & Communication Engineering student seeking core electronics roles." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg: #0b0c10;
-      --card: #111318;
-      --text: #e9eef5;
-      --muted: #b1b8c4;
-      --accent: #7aa2ff;
-      --chip: #1a2030;
-      --border: #222732;
-    }
-    *{box-sizing:border-box}
-    body{margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      background: var(--bg); color:var(--text); line-height:1.6;}
-    .container{max-width:980px; margin:32px auto; padding:24px;}
-    .resume{background:var(--card); border:1px solid var(--border); border-radius:20px; box-shadow:0 20px 50px rgba(0,0,0,0.35); overflow:hidden}
-    header{padding:28px;}
-    h1{margin:0; font-size:32px;}
-    .subtitle{color:var(--muted); margin-top:6px}
-    .contact{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
-    .chip{display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; background:var(--chip); border:1px solid var(--border); font-size:14px}
-    .chip a{color:inherit; text-decoration:none}
-    .grid{display:grid; grid-template-columns:1.25fr 0.75fr; gap:18px; padding:18px;}
-    .card{background:var(--bg); border:1px solid var(--border); border-radius:16px; padding:20px}
-    h2{font-size:18px; margin:0 0 12px 0; letter-spacing:0.3px}
-    ul{padding-left:18px; margin:10px 0}
-    li{margin:6px 0}
-    .taglist{display:flex; flex-wrap:wrap; gap:8px}
-    .tag{background:var(--chip); border:1px solid var(--border); padding:6px 10px; border-radius:10px; font-size:13px;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjith Kumar R - Embedded Systems Developer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: none;
+            margin-top: 0;
+            font-size: 2.5em;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .job-title, .project-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            display: flex;
+            justify-content: space-between;
+        }
+        .job-title span:last-child, .project-title span:last-child {
+            font-weight: normal;
+            font-style: italic;
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-list strong {
+            display: inline-block;
+            width: 180px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="resume">
-      <header>
-        <h1>Sanjith Kumar</h1>
-        <div class="subtitle">B.E. Electronics and Communication Engineering · Core Electronics Enthusiast</div>
-        <div class="contact">
-          <span class="chip">📍 Coimbatore, IN</span>
-          <span class="chip">✉️ <a href="mailto:sanjithkumar711@gmail.com">sanjithkumar711@gmail.com</a></span>
-          <span class="chip">🔗 <a href="https://github.com/SANJITHKUMAR-EMBEDDED" target="_blank">github.com/SANJITHKUMAR-EMBEDDED</a></span>
-          <span class="chip">💼 <a href="https://www.linkedin.com/in/sanjithkumar-embedded" target="_blank">linkedin.com/in/sanjithkumar-embedded</a></span>
-          <span class="chip">📞 +91-8838803443</span>
-        </div>
-      </header>
 
-      <div class="grid">
-        <main class="card">
-          <section>
-            <h2>Career Objective</h2>
-            <p>To leverage my skills in Electronics and Communication Engineering to contribute to core electronics, embedded systems, and VLSI domains while continuously learning and growing with an organization.</p>
-          </section>
-
-          <section>
-            <h2>Internships</h2>
-            <ul>
-              <li><b>Chip to Start</b> – VLSI RTL to GDSII flow (Jul 2024)</li>
-              <li><b>RBV Electronics</b> – PCB Design, Soldering, Testing (Jun 2024)</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Projects</h2>
-            <ul>
-              <li><b>IoT-based School Bus Tracking System</b> – ESP32, Firebase, GPS, RFID (Patentable scope)</li>
-              <li><b>FlapPyBird Game Contribution</b> – Open-source GitHub repo, branching, merging, PR</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Workshops</h2>
-            <ul>
-              <li>PCB Design Workshop (2024)</li>
-              <li>IoT with ESP32 (2024)</li>
-              <li>Robotics and Arduino Bootcamp (2023)</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2>Achievements</h2>
-            <ul>
-              <li>Active member of Arts with Hearts club – contributed to creative workshops</li>
-              <li>College cricket team player – fitness and teamwork</li>
-            </ul>
-          </section>
-        </main>
-
-        <aside class="card">
-          <section>
-            <h2>Skills</h2>
-            <div class="taglist">
-              <span class="tag">Git & GitHub</span>
-              <span class="tag">C / C++</span>
-              <span class="tag">Embedded Systems</span>
-              <span class="tag">PCB Design</span>
-              <span class="tag">VLSI Flow</span>
-              <span class="tag">Python</span>
-              <span class="tag">Digital Electronics</span>
-              <span class="tag">Signal Processing</span>
+    <div id="resume">
+        <header>
+            <h1>Sanjith kumar R</h1>
+            <p style="text-align:center; font-size: 1.2em; margin-top: -10px; color: #555;">Embedded Systems Developer</p>
+            <div class="contact-info">
+                <a href="https://github.com/SANJITHKUMAR-EMBEDDED" target="_blank">GitHub: SANJITHKUMAR-EMBEDDED</a> •
+                <a href="mailto:sanjithkumar711@gmail.com">sanjithkumar711@gmail.com</a> •
+                <span>+91 8838803443</span> •
+                <a href="https://linkedin.com/in/sanjith-kumar-r" target="_blank">LinkedIn: sanjith-kumar-r</a>
             </div>
-          </section>
+        </header>
 
-          <section>
-            <h2>Education</h2>
-            <p><b>B.E., Electronics & Communication Engineering</b><br>
-            SNS College of Technology, Coimbatore<br>
-            <span class="muted">2021 – 2026 · CGPA: 8.5/10</span></p>
-          </section>
+        <section class="section">
+            <h2>CAREER OBJECTIVE</h2>
+            <p>
+                Electronics and Communication Engineering student with practical experience in embedded systems and PCB assembly. Proficient in microcontroller programming, circuit design, and hardware testing. Seeking a role to apply and enhance my skills in developing innovative and reliable embedded solutions.
+            </p>
+        </section>
 
-          <section>
-            <h2>Certifications</h2>
-            <ul>
-              <li>Git Fundamentals – PrepInsta (2025)</li>
-              <li>Embedded Systems (NPTEL)</li>
-              <li>C Programming (Sololearn)</li>
+        <section class="section">
+            <h2>TECHNICAL SKILLS</h2>
+            <ul class="skills-list" style="list-style-type: none; padding-left: 0;">
+                <li><strong>Embedded Concepts:</strong> Timers, Interrupts, PWM, EEPROM, ADC, DAC</li>
+                <li><strong>Protocols:</strong> UART, SPI, I2C</li>
+                <li><strong>Microcontrollers:</strong> STM32(Blue Pill, HAL Drivers), PIC16F877A (hands-on)</li>
+                <li><strong>Tools & IDEs:</strong> STM32CubeIDE, STM32CubeProgrammer, MPLAB X, Proteus, Git & GitHub</li>
+                <li><strong>Programming Languages:</strong> Embedded C, C</li>
+                <li><strong>Soft Skills:</strong> Problem-solving, Attention to Detail, Team Collaboration, Adaptability</li>
+                <li><strong>Languages known:</strong> Tamil(native), English(proficient), Malayalam(basic), Japanese(beginner)</li>
             </ul>
-          </section>
+        </section>
 
-          <section>
-            <h2>Interests</h2>
-            <div class="taglist">
-              <span class="tag">IoT</span>
-              <span class="tag">VLSI</span>
-              <span class="tag">Robotics</span>
-              <span class="tag">Fitness</span>
+        <section class="section">
+            <h2>EDUCATION</h2>
+            <div>
+                <p class="job-title"><span>B.E in Electronics and Communication Engineering</span> <span>2022-2026</span></p>
+                <p style="margin-top:-10px;">SNS College of Technology | CGPA – 8.50/10</p>
             </div>
-          </section>
-        </aside>
-      </div>
+            <div>
+                <p class="job-title"><span>Higher secondary Education</span> <span>April 2022</span></p>
+                <p style="margin-top:-10px;">GOVT. HR. SEC. SCHOOL, Paneermadai. | Percentage – 84%</p>
+            </div>
+            <div>
+                <p class="job-title"><span>Secondary School Education</span> <span>April 2020</span></p>
+                <p style="margin-top:-10px;">GOVT. HR. SEC. SCHOOL, Paneermadai. | Percentage – 87%</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>INTERNSHIPS</h2>
+            <div>
+                <p class="job-title"><span>PCB Assembly Intern - RBV Electronics, Coimbatore.</span> <span>JUN 2025</span></p>
+                <ul>
+                    <li>Performed PCB assembly, soldering, conformal coating, and quality testing of circuits.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="job-title"><span>VLSI Design Intern - Chip To Start, SNS College Of Technology</span> <span>JUL 2024</span></p>
+                <ul>
+                    <li>Worked on RTL design using Verilog, implemented Binary-to-Grey Converter and Analog OR gate.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>PROJECT EXPERIENCE</h2>
+            <div>
+                <p class="project-title">Gas Leakage Monitoring System</p>
+                <ul>
+                    <li>Built real-time gas detection system using ESP8266 and MQ2 sensor</li>
+                    <li>Integrated Blynk IoT dashboard for remote alerts.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="project-title">Temperature Controlled Fan</p>
+                <ul>
+                    <li>Designed an automatic fan controller using NTC thermistor and BC547 transistor.</li>
+                    <li>Improved cooling efficiency by activating fan only when required.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>CERTIFICATIONS & ACHIEVEMENTS</h2>
+            <ul>
+                <li><strong>NPTEL:</strong> Introduction to Embedded Systems; Fabrication Techniques for MEMS-based Sensors</li>
+                <li><strong>PrepInsta:</strong> C Programming, Git & GitHub</li>
+                <li><strong>Workshop:</strong> AI/ML – Organized by Mindful AI (2023)</li>
+                <li><strong>Finalist (Top Selection):</strong> Project Expo, SNS College of Technology (2025)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>WORKSHOPS AND SEMINARS</h2>
+            <ul>
+                <li><strong>National Seminar:</strong> Reconfigurable FPGA Design using EDA Tools (Jul 2024)</li>
+                <li><strong>Workshop:</strong> Circuit Voyage – Embedded Systems (Mar 2024)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>VOLUNTEER WORK</h2>
+            <div>
+                <p class="job-title"><span>Event Coordinator - Cinephiles</span> <span>TEXPERIA’25, MAR 2025</span></p>
+                <ul>
+                    <li>Coordinated a film-based quiz and engagement event during the inter-college tech fest.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="job-title"><span>Event Organizer - Pets Club</span> <span>National Pets Day, APR 2025</span></p>
+                <ul>
+                    <li>Led campus event on pet care awareness; managed volunteers and logistics.</li>
+                </ul>
+            </div>
+        </section>
+
     </div>
-  </div>
+
 </body>
 </html>
